@@ -3,23 +3,20 @@
 layout: home
 
 hero:
-  name: "组件库"
-  text: "ui site"
-  tagline: My great project tagline
+  name: "公共库"
+  text: ""
+  tagline: 公共组件、工具库
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 指南
+      link: /guide
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 公共组件
+    details: 表单、表格等...
+  - title: 工具函数
+    details: 缓存、快捷键、导出等...
+  - title: 类型工具
+    details: 常用type类型
 ---
 
