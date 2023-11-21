@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/taoism-ui',
   title: "公共库",
   description: "公共组件、工具库",
   themeConfig: {
