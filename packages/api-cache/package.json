@@ -1,6 +1,6 @@
 {
   "name": "@taoismcn/api-cache",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "api cache by localforage",
   "type": "module",
   "main": "dist/index.cjs",

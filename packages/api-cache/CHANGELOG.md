@@ -1,5 +1,11 @@
 # @taoism/api-cache
 
+## 1.0.0
+
+### Major Changes
+
+- 正式版本
+
 ## 0.3.0
 
 ### Minor Changes
