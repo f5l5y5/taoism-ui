@@ -5,9 +5,9 @@
 # 使用步骤
 
 ```
-yarn add @taoism/api-cache
+yarn add @taoismcn/api-cache
 
-import { ExpriesCache } from '@taoism/api-cache'
+import { ExpriesCache } from '@taoismcn/api-cache'
 
 const cacheApis = {
   'test/api': {
