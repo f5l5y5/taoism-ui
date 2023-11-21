@@ -1,12 +1,27 @@
 {
-  "name": "shortcut",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "@taoismcn/shortcut",
+  "version": "0.2.0",
+  "description": "web shortcut",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
-  "keywords": [],
+  "scripts": {
+    "build": "rimraf dist && rollup -c"
+  },
+  "keywords": [
+    "shortcut key"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "hotkeys-js": "^3.12.0"
+  }
 }
